@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ff9d9d;
+}
+
+.main {
+    position: relative;
+    background-color: #ff9d9d;
+    width: 100%;
+    min-height: 100vh;
+    text-align: left;
+    font-size: 23px;
+    color: black;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff475d;
+    width: 100%;
+    height: 30vh;
+}
+
+.brief,
+.random-meal {
+    position: absolute;
+    top: 13vh;
+    left: 3vw;
+    font-size: 1.3vw;
+}
+
+.random-meal {
+    top: 40vh; 
+    font-size: 2.2vw;
+    text-align: center;
+    place-content: center;
+}
+
+#Random {
+    position: absolute;
+    top: 35vh;
+    left: 39vw;
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.apam-balik {
+    position: relative;
+    margin-top: 60vh;
+    margin-left: 40vw;
+}
+
+.flavorfiesta1 {
+    margin: 0;
+}
+
+.flavorfiesta {
+    position: absolute;
+    top: 1vh;
+    left: 35vw;
+    font-size: 4.2vw;
+    display: inline-block;
+    width: 50vw;
+    height: 1vh;
+}
+
+.button {
+    display: inline-block;
+    padding: 2vh 4vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff475d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+.input-box {
+    position: absolute;
+    top: 24vh;
+    left: 41vw;
+    border-radius: 5px;
+    background-color: #ffe8d7;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.3vw;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+#randomMealContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+}
+
+.meal-container1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+.meal-container {
+  width: 18%; 
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.meal-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
